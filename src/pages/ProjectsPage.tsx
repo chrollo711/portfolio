@@ -1,4 +1,4 @@
-import Projects from '../components/Projects.tsx'
+import {Projects} from '../components/Projects.tsx'
 
 function ProjectsPage() {
   return (
