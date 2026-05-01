@@ -10,16 +10,17 @@ function About() {
           <div className="flex justify-center">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-2xl opacity-20"></div>
-              <img 
-                src="/profile.jpg" 
-                alt="Syed Mikraam"
-                className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-gradient-to-r from-blue-500 to-purple-500 shadow-2xl"
-                onError={(e) => {
-                  // Fallback if image doesn't exist
-                  (e.target as HTMLImageElement).src = 'https://via.placeholder.com/400x400/1e293b/3b82f6?text=SM'
-                }}
-              />
-              <div className="absolute bottom-4 right-4 bg-green-500 w-5 h-5 rounded-full border-4 border-gray-900"></div>
+              <div className="relative p-1 rounded-full bg-gradient-to-r from-blue-500 to-purple-500">
+                <img 
+                  src="/profile.jpg" 
+                  alt="Syed Mikraam"
+                  className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-gray-900"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = 'https://via.placeholder.com/400x400/1e293b/3b82f6?text=SM'
+                  }}
+                />
+              </div>
+              <div className="absolute bottom-4 right-4 bg-green-500 w-5 h-5 rounded-full border-4 border-gray-900 animate-pulse"></div>
             </div>
           </div>
 
