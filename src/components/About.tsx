@@ -11,7 +11,7 @@ function About() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-2xl opacity-20"></div>
               <img 
-                src="/src/assets/profile.jpg" 
+                src="/profile.jpg" 
                 alt="Syed Mikraam"
                 className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-gradient-to-r from-blue-500 to-purple-500 shadow-2xl"
                 onError={(e) => {
