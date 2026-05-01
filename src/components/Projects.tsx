@@ -5,7 +5,7 @@ import { Section } from "./Section";
 const projects = [
   {
     title: "Real Estate Estimator",
-    tag: "ML",
+    tag: "website + ML",
     description: "Real-time web app for estimating real estate values.",
     stack: ["React", "FastAPI", "OpenAI"],
     accent: "from-cyan-500/20 to-blue-500/10",
@@ -13,15 +13,16 @@ const projects = [
   },
   {
     title: "EDA Analysis of Amazon Prime",
-    tag: "Fintech",
+    tag: "Data Science",
     description:
       "Exploratory data analysis of Amazon Prime's user behavior and engagement metrics.",
     stack: ["python", "pandas", "matplotlib", "seaborn"],
-    accent: "https://github.com/chrollo711/labmentix",
+    accent: "from-violet-500/20 to-pink-500/10",
+    github: "https://github.com/chrollo711/labmentix",
   },
   {
     title: "Aetheris",
-    tag: "Open Source",
+    tag: "StartUp",
     description:
       "Production-ready application with flutter and fastAPI which sends the traffic level on the road to backend",
     stack: ["FastAPI", "MongoDb", "Flutter", "JWT"],
@@ -92,6 +93,7 @@ export function Projects() {
           rel="noreferrer"
           className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
         >
+          <b>Github</b>
           <ArrowUpRight className="size-3" />
         </a>
       </div>
