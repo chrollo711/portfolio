@@ -29,6 +29,15 @@ const projects = [
     accent: "from-emerald-500/20 to-cyan-500/10",
     github: "https://github.com/chrollo711/AetherisCode",
   },
+  {
+    title: "Lumen",
+    tag: "Finance",
+    description:
+      "App with basic frontend functions and a fastAPI backend that provides financial insights and portfolio management tools.",
+    stack: ["FastAPI", "React"],
+    accent: "from-yellow-500/20 to-orange-500/10",
+    github: "https://github.com/chrollo711/Lumen",
+  },
 ];
 
 export function Projects() {
